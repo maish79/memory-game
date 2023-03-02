@@ -33,6 +33,10 @@ h1{
     text-align: center;
 }
 
+ h2{
+    text-align: center;
+
+ }
 .animals{
     background-color: bisque;
     width: 140px;
@@ -44,3 +48,118 @@ h1{
 
 }
 
+.animals img{
+    padding: 5px;
+}
+
+#restartScreen
+{
+	text-align: center;
+	display: none;
+}
+#Restart
+{
+	margin: 10px 0;
+	padding: 5px 10px;
+	background: #000;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+}
+/*-----media queries------*/
+
+@media only screen and (max-width: 450px) {
+.box{
+    width: 100%; 
+}
+.row{
+    width: 95%;
+}
+.animals{
+    width: 90px;
+    height: 90px;
+}
+.animals img{
+    padding: 2px;
+	width: 86px;
+	height: 86px;
+}
+}
+
+@media only screen and (max-width: 420px) {
+    .box{
+        width: 100%; 
+    }
+    .row{
+        width: 95%;
+        padding: 20px 5px;
+    }
+    .animals{
+        width: 86px;
+        height: 86px;
+    }
+    .animals img{
+        
+        width: 86px;
+        height: 86px;
+    }
+    }
+
+@media only screen and (max-width: 400px) {
+        
+    .animals{
+        width: 82px;
+        height: 82px;
+    }
+    .animals img{
+        
+        width: 77px;
+        height: 77px;
+    }
+        
+    }
+
+ @media only screen and (max-width: 390px) {
+        
+    .animals{
+        width: 86px;
+        height: 86px;
+    }
+    
+    }
+
+ @media only screen and (max-width: 380px) {
+    .box{
+        width: 100%; 
+    }
+    .row{
+        width: 95%;
+        padding: 20px 2px;
+    }
+    .animals{
+        width:79px;
+        height: 79px;
+    }
+    .animals img{
+        
+        width: 75px;
+        height: 75px;
+    }
+    }
+
+@media only screen and (max-width: 420px) {
+    
+    .animals{
+        width: 75px;
+        height: 75px;
+    }
+    .animals img{
+        
+        width: 75px;
+        height: 75px;
+    }
+    }
+
+    
