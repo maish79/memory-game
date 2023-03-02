@@ -21,8 +21,8 @@ function startGame(){
     var animals = document.querySelectorAll(".animals");
     for(var a = 0; a < animals.length; a++)
     {
-        var randomAnimals = allAnimals.splice(allAnimals.length * Math.random() | 0, 1)[0];
-        document.getElementsByClassName("animals")[a].innerHTML += "<img id='"+e+"' src='animals/"+randomAnimal+".png' width='130' height='130' style='display: none;' />";
+        var randomAnimal = allAnimals.splice(allAnimals.length * Math.random() | 0, 1)[0];
+        document.getElementsByClassName("animals")[a].innerHTML += "<img id='"+a+"' src='assets/images/"+randomAnimal+".png' width='130' height='130' style='display: none;' />";
     }
 }
 startGame();
