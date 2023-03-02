@@ -13,6 +13,27 @@ function displayAnimal(aid){
         document.getElementById("animal"+aid).style.pointerEvents= "none";
         clickedAnimals.push(aid);
 
+        if(clickedAnimals.length ==2){
+            if(document.getElementById(clickedAnimals[0]).getAttribute("src") == document.getElementById(clickedAnimals[1]).getAttribute("src")){
+            matchedPair++;
+            setTimeout(function(){
+                clickedAnimals = [];
+            }, 500);
+            if(matchedPair == 8)
+            document.getElementById("restartScreen").style.display = "block";
+
+        }
+        else{
+            setTimeout(function(){
+                document.getElementById(clickedAnimals[0]).style.display = "none";
+                document.getElementById(clickedAnimals[1]).style.display = "none";
+                document.getElementById("animal"+clickedAnimals[0]).style.pointerEvents = "auto";
+                document.getElementById("animal"+clickedAnimals[1]).style.pointerEvents = "auto";
+                clickedAnimals= [];
+            },500);
+        }
+    }
+
     }
     
 }
