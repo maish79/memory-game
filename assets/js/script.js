@@ -3,14 +3,18 @@ var matchedPair = 0;
 var clickedAnimals = [];
 
 function displayAnimal(aid)
-{   
+{   // Get Click counter
     var allMoves = document.getElementById("moves").innerHTML;
+    // Increase the moves counter by 1
     allMoves++;
+    // Display the new moves counter
     document.getElementById("moves").innerHTML = allMoves;
-
+    // Check if clickedEmojis array length IS NOT equal to 2
     if(clickedAnimals.length !=2)
     {
+        // Display the clicked animals
         document.getElementById(aid).style.display = "block";
+        // Get the emojis name
         var animal = document.getElementById(aid).src.split("/").pop().split(".")[0];
         document.getElementById("animal"+aid).style.pointerEvents= "none";
         clickedAnimals.push(aid);
@@ -28,7 +32,7 @@ function displayAnimal(aid)
                
                 if(matchedPair == 8){
                     setTimeout(function(){
-                    alert('Congradulations, you win');
+                    alert('Congradulations, you found them all');
                     document.getElementById("restartScreen").style.display = "block";
                 }, 500);
                 }
@@ -40,7 +44,7 @@ function displayAnimal(aid)
                     document.getElementById("animal"+clickedAnimals[0]).style.pointerEvents = "auto";
                     document.getElementById("animal"+clickedAnimals[1]).style.pointerEvents = "auto";
                     clickedAnimals= [];
-                   //alert('sorry, try again!');
+                 //  alert('sorry, try again!');
                 },500);
             }
         }
