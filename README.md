@@ -1,6 +1,6 @@
 # Memory Game
 
-* In this game the player tries to match all the alike animals by clicking on the box.
+* In this game the player tries to match all the like animals by clicking on the box.
 * The game is designed for all age groups.
 * This game is fun and interactive.
 
@@ -18,7 +18,7 @@
 * If correctly matched pairs are clicked you get a pop-up alert saying ('you found a match').
 * The player should click on the "X" button after the pop-up so as to continue with the game.
 * When all cards are correctly matched you get another pop-up saying ('congradulations you win!')
-* After the game ends a restart button becomes visible for playing another round.
+* After the game ends, a restart button becomes visible for playing another round.
 * By playing this game the user can test their momory skills in a fun environment.
 
 ## WireFrames 
@@ -68,6 +68,48 @@ I used google lighthouse testing tools for the debsites performance.
 * lighthouse Mobile
 
 <img src="assets/images/lighthouse-mobile.png">
+
+## Languages Used
+1. [HTML](https://en.wikipedia.org/wiki/HTML5) - To create a basic site.
+2. [CSS](https://en.wikipedia.org/wiki/CSS) - To create the look for the game.
+3. [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - For the logic of the game. To manipulate the HTML and CSS on the screen..
+
+
+## Testing
+
+* I tested the page works in different browsers.
+* I have confirmed that the project is responsive across various screen sizes.
+
+![pixel 5](assets/images/pixel-5.png)
+![nest-hub](assets/images/nest-hub-max.png)
+
+## Deployment
+
+Deployments through Github Pages
+The site was deployed through github using the following steps:
+* Log into GitHub.
+* Locate the repository.
+* Click the "settings" option along the options bar.
+* Then go to "Pages" tab in the left hand side sidebar.
+* Then under "Source" click the "None" dropdown and select the "Main" branch
+* Click the save button.
+* The page will update and at the top it will say: "Your site is live at https://maish79.github.io/memory-game/"
+
+## Credits
+
+Code 
+
+* Moirahartigan for ReadMe section inspiration.
+* [youtube](https://www.youtube.com/watch?v=28VfzEiJgy4) inspiration was taken from this tutorial.
+* [w3schools](https://www.w3schools.com/) was used as a general source of knowledge 
+* [Stack Overflow](https://stackoverflow.com/) was used to assist during debugging.
+
+Media
+
+* Media animal cartoon images were taken from google.
+
+
+
 
 
  
