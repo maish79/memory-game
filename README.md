@@ -21,6 +21,8 @@
 * After the game ends a restart button becomes visible for playing another round.
 * By playing this game the user can test their momory skills in a fun environment.
 
+*  | ![alt](assets/images/match.png) | ![alt](assets/images/congradulations.png) | ![alt](assets/images/endgame.png)|
+
 
 
 
