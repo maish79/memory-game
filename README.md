@@ -21,7 +21,60 @@
 * After the game ends a restart button becomes visible for playing another round.
 * By playing this game the user can test their momory skills in a fun environment.
 
-*  | ![alt](assets/images/match.png) | ![alt](assets/images/congradulations.png) | ![alt](assets/images/endgame.png)|
+## WireFrames 
+Balsamiq wireframes were used for laptop and mobile devises during initial visual development
+
+* balsamiq-mobile display
+
+<img src="assets/images/balsamiq-mobile.png">
+
+* balsamiq-laptop display
+
+ <img src="assets/images/balsamiq-laptop.png">
+
+
+
+
+## Game Levels and alerts
+
+* Matched pair Game alert
+
+<img src="assets/images/match.png">
+ 
+* End game congradulations alert
+
+<img src="assets/images/congradulations.png">
+
+* End game with Restart button
+
+<img src="assets/images/endgame.png">
+
+## Testing
+* No errors were passed through the HTML Validator
+
+<img src="assets/images/memory-html-validator.png">
+
+* No errors were passed through the CSS Validator
+
+<img src="assets/images/memory-html-validator.png">
+
+# Lighthouse Testing
+I used google lighthouse testing tools for the debsites performance.
+
+* Lighthouse Desktop
+
+<img src="assets/images/lighthouse-desktop.png">
+
+* lighthouse Mobile
+
+<img src="assets/images/lighthouse-mobile.png">
+
+
+ 
+
+
+ 
+
 
 
 
