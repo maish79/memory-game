@@ -88,6 +88,14 @@ I used google lighthouse testing tools for the debsites performance.
 3. [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - For the logic of the game. To manipulate the HTML and CSS on the screen..
 
 
+## Framework Libraries and Programme Used
+
+* [Balsamiq Wireframes](https://balsamiq.com/wireframes/) - for creating Wireframes for initial visual development.
+* [GitHub](https://github.com/) - used to host repository.
+* [GitPod](https://gitpod.io/workspaces) - used to develop project and organise version control.
+* [Google Chrome Development Tools](https://developers.google.com/web/tools/chrome-devtools) - for testing code on various device sizes during development and debugging.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) - for testing code health, accessibility, speed and search engine optimisation.
+
 ## Testing
 
 * I tested the page works in different browsers.
