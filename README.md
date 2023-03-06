@@ -10,6 +10,19 @@
 
 * <img src="assets/images/memory-game.png">
 
+## Table of Content
+
++ [How to play the Game](#How-to-play-the-Game)
++ [WireFrames](#WireFrames)
++ [Game Levels and alerts](#Game-levels-and-alerts)
++ [Testing](#Testing)
++ [Deloyment](#Deployment)
++ [Credits](#Credits)
+
+
+
+
+
 ## How to play the Game
 
 * The player should see 16 grid graycards and a moves counter at the screen on display.
@@ -19,7 +32,7 @@
 * The player should click on the "X" button after the pop-up so as to continue with the game.
 * When all cards are correctly matched you get another pop-up saying ('congradulations you win!')
 * After the game ends, a restart button becomes visible for playing another round.
-* By playing this game the user can test their momory skills in a fun environment.
+* By playing this game the user can test their memory skills in a fun environment.
 
 ## WireFrames 
 Balsamiq wireframes were used for laptop and mobile devises during initial visual development
@@ -78,10 +91,15 @@ I used google lighthouse testing tools for the debsites performance.
 ## Testing
 
 * I tested the page works in different browsers.
-* I have confirmed that the project is responsive across various screen sizes.
+* I have confirmed that the project is responsive across various screen sizes. 
 
-![pixel 5](assets/images/pixel-5.png)
-![nest-hub](assets/images/nest-hub-max.png)
+Pixel-5
+
+<img src="assets/images/pixel-5.png">
+
+Nest-hub
+
+<img src="assets/images/nest-hub.png">
 
 ## Deployment
 
