@@ -16,7 +16,9 @@ function displayAnimal(aid)
         document.getElementById(aid).style.display = "block";
         // Get the emojis name
         var animal = document.getElementById(aid).src.split("/").pop().split(".")[0];
+        // Disable the mouse pointer
         document.getElementById("animal"+aid).style.pointerEvents= "none";
+        // Push this clicked animal ID into the clickedAnimals array
         clickedAnimals.push(aid);
     
         if(clickedAnimals.length ==2)
@@ -44,7 +46,7 @@ function displayAnimal(aid)
                     document.getElementById("animal"+clickedAnimals[0]).style.pointerEvents = "auto";
                     document.getElementById("animal"+clickedAnimals[1]).style.pointerEvents = "auto";
                     clickedAnimals= [];
-                 //  alert('sorry, try again!');
+                
                 },500);
             }
         }
@@ -58,6 +60,7 @@ function startGame(){
     for(var a = 0; a < animals.length; a++)
     {
         var randomAnimal = allAnimals.splice(allAnimals.length * Math.random() | 0, 1)[0];
+        // Set the random generated animal image
         document.getElementsByClassName("animals")[a].innerHTML += "<img id='"+a+"' src='assets/images/"+randomAnimal+".png' width='130' height='130' style='display: none;' />";
     }
 }
