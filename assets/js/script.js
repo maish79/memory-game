@@ -3,16 +3,13 @@ var matchedPair = 0;
 var clickedAnimals = [];
 
 function displayAnimal(aid)
-{   // Get Click counter
+{   
     var allMoves = document.getElementById("moves").innerHTML;
-    // Increase the moves counter by 1
     allMoves++;
-    // Display the new moves counter
     document.getElementById("moves").innerHTML = allMoves;
-    // Check if clickedEmojis array length IS NOT equal to 2
+    
     if(clickedAnimals.length !=2)
     {
-        // Display the clicked animals
         document.getElementById(aid).style.display = "block";
         // Get the emojis name
         var animal = document.getElementById(aid).src.split("/").pop().split(".")[0];
@@ -59,6 +56,7 @@ function startGame(){
     var animals = document.querySelectorAll(".animals");
     for(var a = 0; a < animals.length; a++)
     {
+        // Generate one random animal from the array
         var randomAnimal = allAnimals.splice(allAnimals.length * Math.random() | 0, 1)[0];
         // Set the random generated animal image
         document.getElementsByClassName("animals")[a].innerHTML += "<img id='"+a+"' src='assets/images/"+randomAnimal+".png' width='130' height='130' style='display: none;' />";

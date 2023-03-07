@@ -71,6 +71,14 @@ Balsamiq wireframes were used for laptop and mobile devises during initial visua
 
 <img src="assets/images/memory-html-validator.png">
 
+* JSHint testing
+
+<img src="assets/images/jsHint.png">
+
+
+
+
+
 # Lighthouse Testing
 I used google lighthouse testing tools for the debsites performance.
 
